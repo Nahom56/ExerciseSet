@@ -6,33 +6,33 @@ public class DaysOfWeekSet {
 
     public static void main(String[] args) {
         // Create a HashSet with the days of the week
-        Set<String> hashSetDays = new HashSet<>();
-        hashSetDays.add("Monday");
-        hashSetDays.add("Tuesday");
-        hashSetDays.add("Wednesday");
-        hashSetDays.add("Thursday");
-        hashSetDays.add("Friday");
-        hashSetDays.add("Saturday");
-        hashSetDays.add("Sunday");
+        Set<String> hashSetDaysNahom = new HashSet<>();
+        hashSetDaysNahom.add("Monday");
+        hashSetDaysNahom.add("Tuesday");
+        hashSetDaysNahom.add("Wednesday");
+        hashSetDaysNahom.add("Thursday");
+        hashSetDaysNahom.add("Friday");
+        hashSetDaysNahom.add("Saturday");
+        hashSetDaysNahom.add("Sunday");
 
         // Print the content of the HashSet
-        System.out.println("HashSet (unordered): " + hashSetDays);
+        System.out.println("HashSet (unordered): " + hashSetDaysNahom);
 
         // Create a LinkedHashSet with the days of the week (preserves insertion order)
-        Set<String> linkedHashSetDays = new LinkedHashSet<>();
-        linkedHashSetDays.add("Monday");
-        linkedHashSetDays.add("Tuesday");
-        linkedHashSetDays.add("Wednesday");
-        linkedHashSetDays.add("Thursday");
-        linkedHashSetDays.add("Friday");
-        linkedHashSetDays.add("Saturday");
-        linkedHashSetDays.add("Sunday");
+        Set<String> linkedHashSetDaysNahom = new LinkedHashSet<>();
+        linkedHashSetDaysNahom.add("Monday");
+        linkedHashSetDaysNahom.add("Tuesday");
+        linkedHashSetDaysNahom.add("Wednesday");
+        linkedHashSetDaysNahom.add("Thursday");
+        linkedHashSetDaysNahom.add("Friday");
+        linkedHashSetDaysNahom.add("Saturday");
+        linkedHashSetDaysNahom.add("Sunday");
 
         // Print the content of the LinkedHashSet
-        System.out.println("LinkedHashSet (ordered): " + linkedHashSetDays);
+        System.out.println("LinkedHashSet (ordered): " + linkedHashSetDaysNahom);
 
         // Check if the two sets are equal
-        boolean isEqual = hashSetDays.equals(linkedHashSetDays);
+        boolean isEqual = hashSetDaysNahom.equals(linkedHashSetDaysNahom);
         System.out.println("Are the two sets equal? " + isEqual);
     }
 }
